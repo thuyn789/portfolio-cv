@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url("./assets/mywall.png");
+  padding-left: 5em;
+  padding-right: 5em;
+  font-family: "Noto Sans JP", sans-serif;
+  margin: auto;
+  width: 75vw;
+  animation: loading 500ms ease-out;
+}
+
+.container {
+  animation: loading 500ms ease-out;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+tr:hover,
+nav a:hover {
+  animation: highlight 0.5s forwards;
+}
+
+@keyframes highlight {
+  from {
+  }
+  to {
+    background-color: lightblue;
+  }
+}
+
+hr {
+  border: 0;
+  height: 6px;
+  background-image: radial-gradient(
+    closest-side,
+    hsla(0, 0%, 50%, 1),
+    hsla(0, 0%, 50%, 0) 100%
+  );
+}
+
+span {
+  font-size: 3em;
+}
+
+.logo_icon img {
+  width: 35px;
+}
+
+.logo_icon,
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,24 @@
+.logo_icon img {
+  width: 35px;
+}
+
+.logo_icon,
+a {
+  text-decoration: none;
+}
+
+.footer a,
+ul a {
+  color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer .footer-contact {
+  margin-left: 15px;
+}

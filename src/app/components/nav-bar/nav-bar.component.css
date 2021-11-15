@@ -1,0 +1,24 @@
+nav.menu {
+  background-color: rgba(255, 183, 117, 0.5); /*#FFB775*/
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+a {
+  color: red;
+}
+
+nav a:hover {
+  animation: highlight 0.5s forwards;
+}
+
+@keyframes highlight {
+  from {
+  }
+  to {
+    background-color: lightblue;
+  }
+}

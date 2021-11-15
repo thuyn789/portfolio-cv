@@ -1,0 +1,27 @@
+.main_box {
+  max-width: 400px;
+  height: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: transform 0.5s;
+}
+
+.main_box:hover {
+  transform: translateY(-10px);
+}
+
+.main_box h1,
+h3 {
+  text-decoration: underline;
+}
+
+.main_box h1 {
+  font-size: 38px;
+  font-family: "Dancing Script", cursive;
+  /*font-family: 'Parisienne', cursive;*/
+}

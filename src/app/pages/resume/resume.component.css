@@ -1,0 +1,17 @@
+#resume_pdf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(5px 5px 5px #222222);
+}
+
+#resume_img {
+  max-width: 100%;
+  height: auto;
+}
+
+#resume_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
